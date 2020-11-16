@@ -17,7 +17,7 @@ public interface XxlJobLogGlueDao {
 	
 	public List<XxlJobLogGlue> findByJobId(@Param("jobId") int jobId);
 
-	public int removeOld(@Param("jobId") int jobId, @Param("limit") int limit);
+	public int removeOld(@Param("jobId") long jobId, @Param("limit") int limit);
 
 	public int deleteByJobId(@Param("jobId") int jobId);
 	

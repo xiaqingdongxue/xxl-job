@@ -31,7 +31,7 @@ public interface XxlJobInfoDao {
 	
 	public int save(XxlJobInfo info);
 
-	public XxlJobInfo loadById(@Param("id") int id);
+	public XxlJobInfo loadById(@Param("id") long id);
 	
 	public int update(XxlJobInfo xxlJobInfo);
 	

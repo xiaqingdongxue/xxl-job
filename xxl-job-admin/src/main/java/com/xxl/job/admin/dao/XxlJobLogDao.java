@@ -39,7 +39,7 @@ public interface XxlJobLogDao {
 
 	public int updateHandleInfo(XxlJobLog xxlJobLog);
 	
-	public int delete(@Param("jobId") int jobId);
+	public int delete(@Param("jobId") long jobId);
 
 	public Map<String, Object> findLogReport(@Param("from") Date from,
 											 @Param("to") Date to);
